@@ -1,0 +1,25 @@
+<!-- <%= form_tag '/students', method: :post do %>
+  <%= label_tag(:name, "Doctor's Name") %>
+  <%= text_field_tag(
+      :name,
+      params[:name],
+      placeholder: "Name",
+      class: "form-control"
+  ) %>
+
+  <%= label_tag(:specialty, "Doctor's Speicalty") %>
+  <%= text_field_tag(
+      :specialty,
+      params[:specialty],
+      placeholder: "Specialty",
+      class: "form-control"
+  ) %>
+
+  <% submit_tag "Create New Doctor" %>
+<% end %>
+
+<!-- <%= form_for  do |f| %>
+  <%= render "shared/errors", object:  %>
+  <%= f.text_field :field %>
+
+<% end %> --> -->
